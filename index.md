@@ -1,22 +1,57 @@
 ---
 layout: article
 title: Dinesh Bharadia
-carousels:
-  - images:
-    - image: /assets/images/picpic/graduation_2023.jpg
-    - image: /assets/images/picpic/mobicom_2021.jpg
-    - image: /assets/images/picpic/roshan_graduation.jpg
-    - image: /assets/images/picpic/birch_2022.jpg
-    - image: /assets/images/picpic/christmas_2021.jpg
-    - image: /assets/images/picpic/diwali.jpg
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    src: /assets/images/atkinson.jpeg
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
 ---
+
+<h6>Associate Professor</h6>
+
+<div class="flex-space-around">
+  <div class="home-image">
+    <img src="https://dineshb-ucsd.github.io/images/WebpageNewPic.jpg" width="100%" />
+  </div>
+  <div class="socials-col">
+    <div>
+      <i class="socials-icon fas fa-map-marker-alt"></i>
+      <strong>San Diego, CA</strong>
+    </div>
+
+    <a class="button" href="https://twitter.com/bharadiadinesh" target="_blank">
+      <div class="socials-icon">
+        {%- include svg/icon/social/twitter.svg -%}
+      </div>
+      Twitter
+    </a>
+
+    <a class="button" href="https://github.com/orgs/ucsdwcsng/" target="_blank">
+      <div class="socials-icon">
+        {%- include svg/icon/social/github.svg -%}
+      </div>
+      Github
+    </a>
+
+    <a class="button" href="https://orcid.org/0000-0002-3518-4722" target="_blank">
+      <div class="socials-icon">
+        {%- include svg/icon/social/orcid.svg -%}
+      </div>
+      ORCID
+    </a>
+
+    <a class="button" href="https://scholar.google.com/citations?user=5SjaXJsAAAAJ&hl=en" target="_blank">
+      <i class="socials-icon fas fa-graduation-cap"></i>
+      Google Scholar
+    </a>
+  </div>
+</div>
+
+
+I am an Associate Professor in the ECE department with an affiliate appointment with the CSE department at UC San Diego. Our group [WCSNG](https://wcsng.ucsd.edu) designs systems for Wireless Communication, Computing, Sensing, and Networking at UC San Diego. 
+
+The vision for our research is to design and prototype performant systems for communicating, sensing, computing, and securing information in our connected world, solving real-world problems. Our research has aimed to solve fundamental questions, which has often led to new areas of research and commercialization. 
+
+[WCSNG](https://wcsng.ucsd.edu) group consists of highly interdisciplinary engineers, spanning electrical engineers, data scientists, computer scientists, and mechanical engineers, and works at the intersection of computing, signal processing, circuits, computer vision, machine learning, and artificial intelligence. We develop science and algorithms and their real-world implementation and prototypes in our impact areas. 
+
+Our broad impact areas are vision/perception systems, sensing systems, wireless communications, computing systems, and wireless networking. WCSNG group has curated and created various open-source datasets and tools that enable reproducible research and eases barriers to entry for researchers in computing, communication, and sensing. 
+
 <h2><a href="/wireless.html">Wireless Sensing</a></h2>
 <div><img src="/assets/images/wiros.mov" height="400" width="100%"/></div>
 <h2><a href="/6g.html">Towards 6G</a></h2>
