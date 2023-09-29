@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Wireless Communications Sensing and Networking
+title: Dinesh Bharadia
 carousels:
   - images:
     - image: /assets/images/picpic/graduation_2023.jpg
