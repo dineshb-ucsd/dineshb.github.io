@@ -34,7 +34,11 @@
               {%- else -%}
                 {%- if _item.subfolderitems -%}
                   <li class="navigation__item">
+                    {%- if _item.url -%} 
+                    <a href="{{ _item.url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a>
+                    {%- else -%}
                     <a>{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a>
+                    {%- endif -%}
                       <ul>
                         {%- for entry in _item.subfolderitems -%}
                           <li><a href="{{ entry.url }}">{{ entry.name }}</a></li>
