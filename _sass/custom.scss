@@ -17,6 +17,7 @@
 
 .home-content {
   float: right;
+  margin-top: 2rem;
 
   @include media-breakpoint-up(md) {
     width: 70%;

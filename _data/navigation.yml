@@ -23,19 +23,24 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
+    url: /research
     subfolderitems:
-      - name: "Wireless Sensing"
-        url: /wireless.html
-      - name: "Towards 6G"
-        url: /6g.html
-      - name: "Ubiquitous IoT"
-        url: /iot.html
-      - name: "Spectrum Sensing"
-        url: /spectrum.html
-      - name: "Autonomous Vehicles"
-        url: /vehicle.html
-      - name: "Security and Privacy"
-        url: /security.html
+      - name: "Sensing Driven Communication"
+        url: /sensing-driven-communication
+      - name: "Radio-Interferometry"
+        url: /radio-interferometry
+      - name: "New Horizons with Wireless Sensing"
+        url: /new-horizons-with-wireless-sensing
+      - name: "Autonomous Perception"
+        url: /autonomous-perception
+      - name: "Wireless Sensing of radios"
+        url: /wireless-sensing-of-radios
+      - name: "Networking and Computing with Smart Surfaces"
+        url: /networking-and-computing-with-smart-surfaces
+      - name: "Ultra Low Power Connectivity and Sensing"
+        url: /ultra-low-power-connectivity-and-sensing
+      - name: "Reliable xG mm-wave Networks"
+        url: /reliable-xg-mm-wave-networks
   
   - titles:
       # @start locale config
@@ -87,31 +92,31 @@ header:
       fr-LU   : *FR
       tr      : &TR       Arşivdekiler
       # @end locale config
-    url: /publications.html
+    url: /publications
 
   - titles:
       # @start locale config
-      en      : &EN       Open Source
+      en      : &EN       Teaching
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
+      zh-Hans : &ZH_HANS
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
       zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
+      zh-Hant : &ZH_HANT
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       소개
+      ko      : &KO
       ko-KR   : *KO
-      fr      : &FR       À propos
+      fr      : &FR
       fr-BE   : *FR
       fr-CA   : *FR
       fr-CH   : *FR
       fr-FR   : *FR
       fr-LU   : *FR
-      tr      : &TR       Hakkında
+      tr      : &TR
       # @end locale config
-    url: /code.html
+    url: /teaching
 
