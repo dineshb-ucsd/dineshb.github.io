@@ -1,14 +1,43 @@
 /* start custom scss snippet */
 
-.home-image {
-  margin-bottom: 0.5rem;
+.sidebar {
+  float: left;
+  margin-top: 1rem;
+
+  display: flex;
+  @include justify-content(center);
 
   @include media-breakpoint-up(md) {
-    width: 30%;
-  }
+    margin-top: 5rem;
 
+    width: calc(30% - 2rem);
+    margin-right: 2rem;
+  }
+}
+
+.home-content {
+  float: right;
+
+  @include media-breakpoint-up(md) {
+    width: 70%;
+  }
+}
+
+.home-image {
   img {
     border-radius: 10%;
+  }
+
+  @include media-breakpoint-down(md) {
+    width: 75%;
+  }
+}
+
+.home-row-wrapper {
+  @include media-breakpoint-down(md) {
+    display: flex;
+    @include justify-content(space-between);
+    @include flex-direction(row-reverse);
   }
 }
 
@@ -23,39 +52,48 @@
   }
 }
 
-.socials-col {
+.socials-row {
   display: flex;
   @include justify-content(space-around);
   @include flex-direction(row);
 
   gap: 1rem;
-  
+
   white-space: nowrap;
   flex-wrap: wrap;
-
-  @include media-breakpoint-up(md) {
-    @include justify-content(center);
-    @include flex-direction(column);
-
-    width: 30%;
+  
+  @include media-breakpoint-down(md) {
+    gap: 0.25rem;
   }
+
+  // >*>span {
+  //   @include media-breakpoint-down(md) {
+  //     display: none;
+  //   }
+  // }
+
+  // @include media-breakpoint-up(md) {
+  //   @include justify-content(center);
+  //   @include flex-direction(column);
+
+  //   width: 30%;
+  // }
 }
 
 .socials-icon {
   color: #000;
   margin-right: 0.5rem;
-}
 
-.socials-icon:has(svg) {
   display: inline-block;
-  > svg {
+
+  >svg {
     display: inline-block;
   }
 }
 
-.button:has(.socials-icon) {
+.socials-row>.button {
   display: flex;
-  @include align-items(center)
+  @include align-items(center);
 }
 
 /* end custom scss snippet */
