@@ -34,18 +34,21 @@
               {%- else -%}
                 {%- if _item.subfolderitems -%}
                   <li class="navigation__item">
-                    {%- if _item.url -%} 
-                    <a href="{{ _item.url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a>
+                    {%- if _nav_url -%} 
+                    <a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a>
                     {%- else -%}
                     <a>{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a>
                     {%- endif -%}
                       <ul>
                         {%- for entry in _item.subfolderitems -%}
-                          <li><a href="{{ entry.url }}">{{ entry.name }}</a></li>
+                          {%- include snippets/get-nav-url.html path=entry.url -%}
+                          {%- assign _entry_url = __return -%}
+        
+                          <li><a href="{{ _entry_url }}">{{ entry.name }}</a></li>
                         {%- endfor -%}
                       </ul>
                   </li>
-                {%- else -%}
+                {%- else -%}  
                   <li class="navigation__item"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
                 {%- endif -%}
               {%- endif -%}
