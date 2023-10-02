@@ -7,6 +7,7 @@ authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Shrivatsan Rajagopal
 conference: NSDI 2020 -- Acceptance rate 17.5% (48 papers accepted out of 275 submitted)
 confurl: https://doi.org/10.1145/2486001
 paper: /files/papers/locap.pdf
-excerpt: '7 cites: https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=966029656364373257'
+extra: <a href="https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=966029656364373257">7
+  cites</a>
 tags: Uncategorized
 ---

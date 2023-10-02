@@ -7,6 +7,7 @@ conference: ACM Mobisys 2019 -- Acceptance rate 22 (39 papers accepted out of 17
   submitted)
 confurl: https://doi.org/10.1145/2486001
 paper: /files/papers/sparsdr.pdf
-excerpt: '5 cites: https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=17100681048462830739'
+extra: <a href="https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=17100681048462830739">5
+  cites</a>
 tags: Uncategorized
 ---

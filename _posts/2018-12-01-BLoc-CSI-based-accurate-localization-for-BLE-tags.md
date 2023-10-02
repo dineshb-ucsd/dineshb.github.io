@@ -7,6 +7,7 @@ conference: ACM CoNEXT 2018 -- Acceptance rate 17.2% (32 papers accepted out of 
   submitted)
 confurl: https://doi.org/10.1145/2486001
 paper: /files/papers/bloc.pdf
-excerpt: '32 cites: https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=2387300467601962233'
+extra: <a href="https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=2387300467601962233">32
+  cites</a>
 tags: Uncategorized
 ---

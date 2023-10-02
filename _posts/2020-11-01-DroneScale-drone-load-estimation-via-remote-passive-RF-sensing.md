@@ -8,6 +8,7 @@ authors: Phuc Nguyen, Vimal Kakaraparthi, Nam Bui, Nikshep Umamahesh, Nhat Pham,
 conference: Sensys 2020 -- Acceptance rate 20% (43 papers accepted out of 213 submitted
 confurl: https://doi.org/10.1145/2486001
 paper: /files/papers/dronescale.pdf
-excerpt: '1 cites: https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=12285452767937590149'
+extra: <a href="https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=12285452767937590149">1
+  cites</a>
 tags: Uncategorized
 ---

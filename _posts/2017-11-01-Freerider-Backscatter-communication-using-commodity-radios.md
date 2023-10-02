@@ -7,6 +7,7 @@ conference: ACM CoNEXT 2017 -- Acceptance rate 18.3% (41 papers accepted out of 
   submitted)
 confurl: https://doi.org/10.1145/2486001
 paper: /files/papers/freerider.pdf
-excerpt: '73 cites: https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=2207608068708370638'
+extra: <a href="https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=2207608068708370638">73
+  cites</a>
 tags: Uncategorized
 ---

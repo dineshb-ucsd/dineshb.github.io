@@ -8,6 +8,7 @@ authors: B Cheng, IS Saggu, R Shah, G Bansal, D Bharadia,
 conference: European Conference on Computer Vision (acceptance rate 26%)
 confurl: https://doi.org/10.1145/2486001
 paper: /files/papers/eccv.pdf
-excerpt: '6 cites: https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=2729708241956805516'
+extra: <a href="https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=2729708241956805516">6
+  cites</a>
 tags: Uncategorized
 ---

@@ -8,6 +8,7 @@ authors: PHP Wang, C Zhang, H Yang, M Dunna, D Bharadia, PP Mercier,
 conference: IEEE Journal of Solid-State Circuits (ISSCC 2020)
 confurl: https://doi.org/10.1145/2486001
 paper: /files/papers/jssc-wifibackscatter.pdf
-excerpt: '2 cites: https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=11843764222899462876'
+extra: <a href="https://scholar.google.com/scholar?oi=bibs\&amp;hl=en\&amp;cites=11843764222899462876">2
+  cites</a>
 tags: Uncategorized
 ---
