@@ -8,6 +8,5 @@ conference: IEEE Symposium on Security and Privacy 2022 -- Acceptance rate 14.7%
 confurl: https://doi.ieeecomputersociety.org/10.1109/SP46214.2022.00030
 paper: /files/papers/sp-22.pdf
 tags: Uncategorized
+extra: <a href="https://wcsng.ucsd.edu/publications">my group</a>
 ---
-
-[my group](https://wcsng.ucsd.edu/publications)
