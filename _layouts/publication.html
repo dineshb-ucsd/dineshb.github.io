@@ -16,8 +16,14 @@ layout: page
     {% if page.other %} <a href="{{ page.other.url }}">{{ page.other.display }}</a> {% endif %}
  </div>
 
+{% assign _content = content | strip %}
+{% if _content != " " %}
 <h2>Abstract</h2>
 {{ content }}
+<script>
+  console.log("{{ _content }}");
+</script>
+{% endif %}
 
 {% if page.video %}
   <h2>Video</h2>
