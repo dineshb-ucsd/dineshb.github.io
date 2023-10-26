@@ -1,3 +1,6 @@
 [submodule "_posts"]
 	path = _posts
 	url = https://github.com/ssemtner/test-publications-submodule
+[submodule "research"]
+	path = research
+	url = https://github.com/ssemtner/test-research-submodule
