@@ -6,6 +6,7 @@
 
   display: flex;
   @include justify-content(center);
+  flex-direction: column;
 
   @include media-breakpoint-up(md) {
     margin-top: 5rem;
