@@ -11,6 +11,10 @@ on:
   push:
     branches: ["master"]
 
+  # Allows site to rebuild on submodule changes
+  repository_dispatch:
+    types: [dispatch-build]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
