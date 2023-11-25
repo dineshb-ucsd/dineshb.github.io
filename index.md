@@ -1,5 +1,7 @@
 ---
 layout: about
+aside:
+  news: true
 ---
 
 I am Associate Professor in the ECE department with an affiliate appointment with the CSE department at UC San Diego. Our group [WCSNG](https://wcsng.ucsd.edu) designs systems for Wireless Communication, Computing, Sensing, and Networking at UC San Diego.
